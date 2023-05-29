@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 62 62">
+    <defs>
+        <filter id="exq1nl9xea" x="0" y="0" width="62" height="62" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur stdDeviation="3" result="blur"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g data-name="Group 16907">
+        <g style="filter:url(#exq1nl9xea)">
+            <circle data-name="Ellipse 244" cx="22" cy="22" r="22" transform="translate(9.002 6.002)" style="fill:#fff"/>
+        </g>
+        <path data-name="Icon material-add-a-photo" d="M3.241 4.741V1.5H5.4v3.241h3.242V6.9H5.4v3.241H3.241V6.9H0V4.741zm3.241 6.482V7.982h3.241V4.741h7.562L19.262 6.9h3.425a2.167 2.167 0 0 1 2.161 2.161v12.965a2.167 2.167 0 0 1-2.161 2.161H5.4a2.167 2.167 0 0 1-2.161-2.161v-10.8zm7.562 9.723a5.4 5.4 0 1 0-5.4-5.4 5.4 5.4 0 0 0 5.4 5.399zm-3.457-5.4a3.457 3.457 0 1 0 3.457-3.457 3.453 3.453 0 0 0-3.457 3.455z" transform="translate(16.589 13.839)" style="fill:#4faca6"/>
+    </g>
+</svg>
