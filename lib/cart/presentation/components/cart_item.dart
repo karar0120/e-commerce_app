@@ -88,7 +88,7 @@ class CartCard extends StatelessWidget {
                     children: [
                       InkWell(
                         onTap: (){
-                          cartController.add(quantity:cart.quantity);
+                          cartController.subtract(quantity:cart.quantity);
                         },
                         child: GeneralSquareButton(
                          widget: const Icon(Icons.remove,color:ColorConsts.whiteColor,),
@@ -96,9 +96,14 @@ class CartCard extends StatelessWidget {
                         ),
                       ),
                       Text("${cart.quantity}"),
-                      GeneralSquareButton(
-                        widget: const Icon(Icons.add,color: ColorConsts.whiteColor,),
-                        backgroundColor: ColorConsts.blackColor,
+                      InkWell(
+                        onTap: (){
+                          cartController.add(quantity:cart.quantity);
+                        },
+                        child: GeneralSquareButton(
+                          widget: const Icon(Icons.add,color: ColorConsts.whiteColor,),
+                          backgroundColor: ColorConsts.blackColor,
+                        ),
                       )
                     ],
                   ),
